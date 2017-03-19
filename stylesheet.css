@@ -1,0 +1,69 @@
+html {
+
+	background-image: url('pictures/flamingo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 130%;
+}
+
+input {
+
+	padding: 5px 5px 9px 5px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: 1px solid grey;
+} 
+
+label {
+
+	position: relative;
+	top: 12px;
+	width: 200px;
+	float: left;
+}
+
+#box {
+		width: 550px;
+		margin: auto;
+		margin-top: 170px;
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.5);
+		box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+		
+}
+
+#wrapper {
+
+	width: 550px;
+	margin: 0 auto;
+	
+}
+
+.form-element {
+	margin-bottom: 10px;
+}
+
+#submitbutton {
+
+	width: 130px;
+	margin-left: 200px;
+	background: linear-gradient(#ffd1b3, white, #ffd1b3);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#errorMessage {
+	color:  red;
+	font-size: 90% !important;
+	padding-bottom: 10px;
+}
+
+#successMessage {
+	color:  green;
+	font-size: 90% !important;
+	padding-bottom: 10px;
+}
